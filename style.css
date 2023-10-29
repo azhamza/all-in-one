@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1a2332;
+    font-family: 'PT Mono', monospace;
+}
+.wrapper{
+    margin: 10px auto;
+    padding: 0 10%;
+    padding-bottom: 10px;
+}
+h1{
+    color: #8def00;
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 0 15px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.sub-heading{
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.box{
+    background-color: #141d2b;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    flex-basis: 22%;
+    border-radius: 10px;
+}
+.box h2{
+    color: #ffff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.box p{
+    color: #ffff;
+    font-size: 12px;
+}
+.box a{
+    text-decoration: underline;
+    color: #8def00;
+
+}
+.text-img{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.text-img p{
+    color: rgb(164, 177, 205);
+    font-size: 0.9rem;
+}
+.text-img img{
+    height: 45px;
+    width: 45px;
+    margin-right:5px;
+}
+h3{
+    margin-top: 0.9rem;
+    color: #8def00;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 14px;
+}
